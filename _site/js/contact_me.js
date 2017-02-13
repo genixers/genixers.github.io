@@ -24,8 +24,10 @@ $(function() {
                 data: {
                     name: name,
                     phone: phone,
+                    _replyto:email,
                     email: email,
-                    message: message
+                    message: message,
+                    _subject: "ACTION - Web enquiry from " + name,
                 },
                 cache: false,
                 dataType: 'json',
