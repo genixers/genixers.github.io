@@ -24,7 +24,6 @@ $(function() {
                 data: {
                     name: name,
                     phone: phone,
-                    _replyto:email,
                     email: email,
                     message: message,
                     _subject: "ACTION - Web enquiry from " + name,
