@@ -17,8 +17,9 @@ $(function() {
             if (firstName.indexOf(' ') >= 0) {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
+
             $.ajax({
-                url: "././mail/contact_me.php",
+                url: "https://formspree.io/hossein.ghodsi@genixers.com",
                 type: "POST",
                 data: {
                     name: name,
@@ -27,6 +28,7 @@ $(function() {
                     message: message
                 },
                 cache: false,
+                dataType: 'json',
                 success: function() {
                     // Success message
                     $('#success').html("<div class='alert alert-success'>");
@@ -51,6 +53,7 @@ $(function() {
                     $('#contactForm').trigger("reset");
                 },
             })
+
         },
         filter: function() {
             return $(this).is(":visible");
@@ -61,6 +64,8 @@ $(function() {
         e.preventDefault();
         $(this).tab("show");
     });
+
+
 });
 
 
