@@ -19,7 +19,7 @@ $(function() {
             }
 
             $.ajax({
-                url: "https://formspree.io/hossein.ghodsi@genixers.com",
+                url: "https://formspree.io/contact@genixers.com",
                 type: "POST",
                 data: {
                     name: name,
