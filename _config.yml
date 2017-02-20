@@ -2,8 +2,8 @@
 #baseurl: /agency-jekyll-theme/
 
 # Site settings
-title: Awesome Title
-email: your-email@domain.com
+title: Genixers
+email: press@genixers.com
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 
 
@@ -45,20 +45,20 @@ people:
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
-    url: http://twitter.com/jekyllrb
+    url: http://twitter.com/genixers
   - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket
-    url: http://bitbucket.org/jekyll
-  - title: github
-    url: http://github.com/jekyll
+    url: http://fb.me/genixers
+  # title: stack-overflow
+  #  url: http://stackoverflow.com/questions/tagged/jekyll
+  # title: bitbucket
+  #  url: http://bitbucket.org/jekyll
+  # title: github
+  #  url: http://github.com/jekyll
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: 1200 Smith St. 16th Floor
+  - line: Houston, TX 77002
 
 # Build settings
 markdown: kramdown
