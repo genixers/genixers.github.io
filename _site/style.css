@@ -143,7 +143,7 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl:active,
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
-    border-color: #199bd7;
+    border-color: #7DA23F;
     color: #fff;
     background-color: #7DA23F;
 }
@@ -186,7 +186,11 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brand {
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
     color: #199bd7;
+
 }
+
+
+
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
@@ -242,9 +246,21 @@ fieldset[disabled] .btn-xl.active {
     background-color: #7DA23F;
 }
 
+@media(min-width:368px) {
+
+    .navbar-default .navbar-brand {
+      padding: 13px;
+    }
+
+    .navbar-default .navbar-brand img {
+        width: 150px;
+    }
+
+}
 
 
 @media(min-width:768px) {
+
     .navbar-default {
         padding: 25px 0;
         border: 0;
@@ -273,7 +289,13 @@ fieldset[disabled] .btn-xl.active {
     .navbar-default.navbar-shrink .navbar-brand {
         font-size: 1.5em;
         padding: 5px;
+
     }
+
+    .navbar-default .navbar-brand img {
+        width: 250px;
+    }
+
 }
 
 header {
@@ -312,6 +334,7 @@ header .intro-text .intro-heading {
 }
 
 @media(min-width:768px) {
+
     header .intro-text {
         padding-top: 300px;
         padding-bottom: 200px;
